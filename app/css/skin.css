@@ -1,0 +1,87 @@
+
+.jcarousel-skin-tango .jcarousel-direction-rtl {
+	direction: rtl;
+}
+body {
+    background-color: rgb(218, 172, 172) !important;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 980px;
+    padding: 0 10px;
+}
+
+.jcarousel-skin-tango .jcarousel-clip {
+    overflow: hidden;
+}
+
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width: 964px;
+    height: 165px;
+}
+
+.jcarousel-skin-tango .jcarousel-item {
+    width: 320px;
+    height: 165px;
+}
+
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+	margin-left: 0;
+    margin-right: 2px;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-item-horizontal {
+	margin-left: 10px;
+    margin-right: 0;
+}
+
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 55px;
+    right: 8px;
+    width: 18px;
+    height: 59px;
+    cursor: pointer;
+    background: transparent url(../imeges/next.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-next-horizontal {
+    left: 5px;
+    right: auto;
+    background-image: url(../imeges/next.png);
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 55px;
+    left: -8px;
+    width: 18px;
+    height: 59px;
+    cursor: pointer;
+    background: transparent url(../imeges/back.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+    left: auto;
+    right: 5px;
+    background-image: url(../imeges/back.png);
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover, 
+.jcarousel-skin-tango .jcarousel-prev-horizontal:focus {
+    background-position: 0 -59px;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: 0 -59px;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-horizontal:focus {
+    background-position: 0 -59px;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: 0 -59px;
+}

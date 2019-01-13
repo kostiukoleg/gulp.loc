@@ -1,0 +1,39 @@
+{
+  "name": "gulp.loc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gifsicle": "^4.0.1",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-cleanhtml": "^1.0.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-concat-js": "^0.1.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-image": "^4.4.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-livereload": "^4.0.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-remove-html-comments": "^1.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "imagemin": "^6.1.0",
+    "imagemin-gifsicle": "^6.0.1",
+    "jpegtran": "^1.0.5",
+    "optipng": "^2.0.0",
+    "svgo": "^1.1.1"
+  }
+}
